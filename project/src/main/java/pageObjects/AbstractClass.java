@@ -1,5 +1,6 @@
 package pageObjects;
 
+import dev.failsafe.internal.util.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -24,4 +25,10 @@ public abstract class AbstractClass {
         Select select= new Select(dropdown);
         select.selectByVisibleText(element);
     }
+   /* public void assertion(WebElement actual,String expected){
+        wait.until(ExpectedConditions.visibilityOf(actual));
+
+        Assert.assertEquals(actual.getText(),expected);
+        System.out.println("my message:"+ actual.getText());
+    }*/
 }
