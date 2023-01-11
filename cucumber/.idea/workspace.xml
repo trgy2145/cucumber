@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dcee4f98-e4a6-4d4f-a284-89e2e817c8a1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/java/pageObjects/AbstractClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/java/pageObjects/ContactUs_Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/java/stepDefinitions/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/java/stepDefinitions/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/java/utilities/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/test/java/LoginTest.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/test/java/test1.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/project1/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/main/java/pageObjects/AbstractClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/main/java/pageObjects/ContactUs_Page.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/main/java/stepDefinitions/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/main/java/stepDefinitions/Test1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/main/java/utilities/Driver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/test/java/LoginTest.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/test/java/test1.feature" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Gzh13xdzEuRQWwup0NqHLlKBcb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/trgy2/OneDrive/Masaüstü/cucumber"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\trgy2\OneDrive\Masaüstü\cucumber\project" />
+      <recent name="C:\Users\trgy2\OneDrive\Masaüstü\cucumber\project\src\test\java" />
+      <recent name="C:\Users\trgy2\OneDrive\Masaüstü\cucumber\project\src\main\java" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dcee4f98-e4a6-4d4f-a284-89e2e817c8a1" name="Changes" comment="" />
+      <created>1667397101523</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667397101523</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
