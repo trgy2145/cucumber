@@ -1,5 +1,6 @@
 package stepdefinitions;
 
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
@@ -31,5 +32,32 @@ public class AmazonStepDefinition {
     public void close_the_page() {
         Driver.closeDriver();
 
+    }
+
+    @Then("user write on the Java and searches it.")
+    public void userWriteOnTheJavaAndSearchesIt() {
+        amazonpage =new Amazonpage();
+        amazonpage.amazonSearchBox.sendKeys("Java"+ Keys.ENTER);
+    }
+
+    @And("user tests it whether the result contain Java or not")
+    public void userTestsItWhetherTheResultContainJavaOrNot() {
+        String actualSearchText = amazonpage.searchResult.getText();
+        String expectedText = "Java";
+        Assert.assertTrue(actualSearchText.contains(expectedText));
+    }
+    @Then("user write on the Samsung and searches it.")
+    public void user_write_on_the_samsung_and_searches_it() {
+        amazonpage =new Amazonpage();
+        // Write code here that turns the phrase above into concrete actions
+        amazonpage.amazonSearchBox.sendKeys("Samsung"+ Keys.ENTER);
+
+    }
+    @Then("user tests it whether the result contain Samsung or not")
+    public void user_tests_it_whether_the_result_contain_samsung_or_not() {
+        // Write code here that turns the phrase above into concrete actions
+        String actualSearchText = amazonpage.searchResult.getText();
+        String expectedText = "Samsung";
+        Assert.assertTrue(actualSearchText.contains(expectedText));
     }
 }
