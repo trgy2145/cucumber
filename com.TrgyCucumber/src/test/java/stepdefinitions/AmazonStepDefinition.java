@@ -60,4 +60,19 @@ public class AmazonStepDefinition {
         String expectedText = "Samsung";
         Assert.assertTrue(actualSearchText.contains(expectedText));
     }
+
+    @Then("user write {string} on the searchbox and searches it.")
+    public void userWriteOnTheSearchboxAndSearchesIt(String searchedWord) {
+
+        amazonpage =new Amazonpage();
+        // Write code here that turns the phrase above into concrete actions
+        amazonpage.amazonSearchBox.sendKeys(searchedWord+ Keys.ENTER);
+    }
+
+    @And("user tests it whether the result contain {string} or not")
+    public void userTestsItWhetherTheResultContainOrNot(String searchedWord) {
+        String actualSearchText = amazonpage.searchResult.getText();
+
+        Assert.assertTrue(actualSearchText.contains(searchedWord));
+    }
 }

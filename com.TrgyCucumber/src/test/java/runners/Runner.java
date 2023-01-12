@@ -39,5 +39,13 @@ public class Runner {
 
     false : verilen tag ile işaretlenen feature veya senaryoları calıstırır..önce true yap eksikleri bul sonra
     false yap test calıstır.
+
+    // hangi feature calıstırmak istiyorsan onun üzerine @wip yaz diğerlerinden sil.Feature üzerine yazarsak
+    tüm senaryuları calıstırır...
+
+    background u beforetest olarak düsünebilirsiniz..
+
+    cift tırnak  içindekini parametre olarak algılar
+    sayıları otomatik olarak parametre olarak algılar.
      */
 }

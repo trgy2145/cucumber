@@ -42,10 +42,15 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/trgy2/OneDrive/Masaüstü/cucumber/com.TrgyCucumber",
+    "last_opened_file_path": "C:/Users/trgy2/OneDrive/Masaüstü/cucumber/com.TrgyCucumber/src/test/resources/features",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\trgy2\OneDrive\Masaüstü\cucumber\com.TrgyCucumber\src\test\resources\features" />
+    </key>
+  </component>
   <component name="RunManager" selected="JUnit.Runner">
     <configuration name="Scenario: TC01 The user searches for Nutella on amazon." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
