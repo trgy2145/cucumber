@@ -10,6 +10,7 @@ import org.junit.runner.RunWith;
         glue = "stepdefinitions",
         tags = "@wip",
         dryRun = false
+        // true yap eksik adımları bul
 )
 public class Runner {
     /*

@@ -1,5 +1,5 @@
 
-@wip
+#  @wip  baska yerleri calıstıracagız bu yüzden yoruma aldım
 Feature: US1003 user searches for word entered as parameter
   Background: common step for all scenario
     Given  user get the amazon page

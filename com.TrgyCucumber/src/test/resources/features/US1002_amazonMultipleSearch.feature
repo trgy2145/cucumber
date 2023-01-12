@@ -1,5 +1,5 @@
 Feature: US1002 User search many product on the amazon page
-  @wip
+  # @wip
   Scenario: TC02 user should be able to  search product and test them
 
     Given  user get the amazon page

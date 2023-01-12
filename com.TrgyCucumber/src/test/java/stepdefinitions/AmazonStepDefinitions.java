@@ -9,7 +9,7 @@ import pages.Amazonpage;
 import utilities.ConfigReader;
 import utilities.Driver;
 
-public class AmazonStepDefinition {
+public class AmazonStepDefinitions {
     Amazonpage amazonpage =new Amazonpage();
     @Given("user get the amazon page")
     public void user_get_the_amazon_page() {
@@ -74,5 +74,16 @@ public class AmazonStepDefinition {
         String actualSearchText = amazonpage.searchResult.getText();
 
         Assert.assertTrue(actualSearchText.contains(searchedWord));
+    }
+
+    @Given("user get {string} page")
+    public void userGetPage(String searchedUrl) {  // burdan ya wqurl ya amazonurl yada walmarturl gelir
+        Driver.getDriver().get(ConfigReader.getProperty(searchedUrl));
+    }
+
+    @Then("test it that there is {string} in the url")
+    public void testItThatThereIsInTheUrl(String searchedWord) {
+        String actualUrl = Driver.getDriver().getCurrentUrl();
+        Assert.assertTrue(actualUrl.contains(searchedWord));
     }
 }
