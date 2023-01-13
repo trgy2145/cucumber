@@ -1,4 +1,4 @@
-@wip
+# @wip
 Feature: US1006 take wrong data from the configuration folder
 
   Scenario: TC10 enter valid username and unvalid password then test it
