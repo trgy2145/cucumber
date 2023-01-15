@@ -1,6 +1,6 @@
 Feature: US1008 Test run for multiple data with scenario outline
-  @wip
-  Scenario Outline:
+ #@wip
+  Scenario Outline:TC13 get the amazon page with outline
 
     # firstly we are gonna go amazon page and search Nutella, Java ,Samsung and Apple
     # then we will test if the result contains the search word

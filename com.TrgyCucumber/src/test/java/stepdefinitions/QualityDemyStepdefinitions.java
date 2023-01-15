@@ -3,6 +3,7 @@ package stepdefinitions;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
+import org.openqa.selenium.Keys;
 import pages.QualitydemyPage;
 import utilities.ConfigReader;
 import utilities.Driver;
@@ -38,9 +39,16 @@ public class QualityDemyStepdefinitions {
         Assert.assertTrue(qualitydemyPage.successfullLoginLink.isDisplayed());
     }
 
+   //  boolean var = true;
+
     @And("accept cookies")
     public void acceptCookies() {
+      /*  if (var) {
+            qualitydemyPage.AcceptCokies.click();
+        }
+        var = false;*/
         qualitydemyPage.AcceptCokies.click();
+
     }
 
     @And("{int} second wait")
@@ -51,5 +59,16 @@ public class QualityDemyStepdefinitions {
     @And("test unsuccess login")
     public void testUnsuccessLogin() {
         Assert.assertTrue(qualitydemyPage.UserEmailBox.isDisplayed());
+    }
+
+    @And("write manuel {string} in the userbox")
+    public void writeManuelInTheUserbox(String username) {
+
+        qualitydemyPage.UserEmailBox.sendKeys(username + Keys.ENTER);
+    }
+
+    @And("write manuel {string} in the passwordbox")
+    public void writeManuelInThePasswordbox(String password) {
+        qualitydemyPage.passwordBox.sendKeys(password + Keys.ENTER);
     }
 }
