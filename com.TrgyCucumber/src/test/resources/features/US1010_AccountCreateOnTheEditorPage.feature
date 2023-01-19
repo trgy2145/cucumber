@@ -1,5 +1,5 @@
 Feature: US1010 create a account on the editor page with scenario outline
-  @wip
+  // @wip
   Scenario Outline: TC15 you can create multiple account on the editor page
 
     When user get "editorUrl" page
